@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table1</title>
+    <style>
+        table,th,td{
+            border:1px solid black;
+            border-collapse: collapse;
+            padding-right:50px;
+            padding-left: 10px;
+            width:10%;
+            border-right:none;
+            border-inline-start-style: none;
+            border-top: none;
+            border-bottom: none;
+
+        }
+        .a,.f{
+            background-color: #dddddd ;
+        }
+        .d,.e{
+            border-left: 1px solid black;
+        }
+        .b{
+            border-right: 1px dashed black;
+        }
+        .e,.f{
+            border-right: 1px solid black;
+        }
+        .a,.h{
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        .c{
+            border-bottom: 1px dashed black;
+        }
+        .g{
+            border-bottom: 1px solid black;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="a">
+            <th class="f">Formal Relationships</th>
+            <th>Resistor 1</th>
+            <th class="e">Resistor 2</th>
+            <th class="b">Operational amplifier</th>
+            <th>Input</th>
+            <th class="d">Output</th>
+        </tr>
+        <tr>
+            <td class="f">Resistor 1</td>
+            <td></td>
+            <td class="e">Connected at V -</td>
+            <td class="b">Connected at V -</td>
+            <td>Connected at input</td>
+            <td class="d"></td>
+        </tr>
+        <tr class="h">
+            <td class="f">Resistor 2</td>
+            <td>Connected at V -</td>
+            <td class="e"></td>
+            <td class="b">Connected at V - and connected at output</td>
+            <td></td>
+            <td class="d">Connected at output</td>
+        </tr>
+        <tr class="c">
+            <td class="f">Operational amplifier</td>
+            <td>Connected at input at V</td>
+            <td class="e">Connected at V  and connected at output</td>
+            <td class="b"></td>
+            <td></td>
+            <td class="d">Connected at output</td>
+        </tr>
+        <tr class="g">
+            <td class="f">Input</td>
+            <td>Connected at input</td>
+            <td class="e"></td>
+            <td class="b"></td>
+            <td></td>
+            <td class="d"></td>
+        </tr>
+        <tr class="g">
+            <td class="f">Output</td>
+            <td></td>
+            <td class="e">Connected at output</td>
+            <td class="b">Connected at output</td>
+            <td></td>
+            <td class="d"></td>
+        </tr>
+    </table><br>
+    <table>
+        <tr class="a">
+            <th class="f">Functional Relationships</th>
+            <th>Resistor 1</th>
+            <th class="e">Resistor 2</th>
+            <th class="b">Operational amplifier</th>
+            <th>Input</th>
+            <th class="d">Output</th>
+        </tr>
+        <tr>
+            <td class="f">Resistor 1</td>
+            <td></td>
+            <td class="e">Exchanges current at V -</td>
+            <td class="b">Exchanges current at V -</td>
+            <td>Exchanges current at input</td>
+            <td class="d"></td>
+        </tr>
+        <tr class="h">
+            <td class="f">Resistor 2</td>
+            <td>Exchanges current at V -</td>
+            <td class="e"></td>
+            <td class="b">Exchanges current at V - and also at output</td>
+            <td></td>
+            <td class="d">Exchanges current at output</td>
+        </tr>
+        <tr class="c">
+            <td class="f">Operational amplifier</td>
+            <td>Exchanges current at V -</td>
+            <td class="e">Exchanges current at V - and also at output</td>
+            <td class="b"></td>
+            <td></td>
+            <td class="d">Exchanges current at output</td>
+        </tr>
+        <tr class="g">
+            <td class="f">Input</td>
+            <td>Exchanges current at input</td>
+            <td class="e"></td>
+            <td class="b"></td>
+            <td></td>
+            <td class="d"></td>
+        </tr>
+        <tr class="g">
+            <td class="f">Output</td>
+            <td></td>
+            <td class="e">Exchanges current at output</td>
+            <td class="b">Exchanges current at output</td>
+            <td></td>
+            <td class="d"></td>
+        </tr>
+    </table>
+</body>
+</html>
